@@ -139,6 +139,7 @@ public extension EasyTipView {
      - parameter view:      The UIView instance which the EasyTipView will be pointing to.
      - parameter superview: A view which is part of the UIView instances superview hierarchy. Ignore this parameter in order to display the EasyTipView within the main window.
      */
+    @available(iOSApplicationExtension, unavailable)
     func show(animated: Bool = true, forView view: UIView, withinSuperview superview: UIView? = nil) {
         
         #if TARGET_APP_EXTENSIONS
